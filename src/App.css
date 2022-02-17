@@ -24,11 +24,33 @@
   margin-top: 16px;
 }
 
+.info {
+  text-align: center;
+  color: black;
+  margin-top: 1rem;
+}
+
 .waveButton {
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+}
+
+.wave {
+  margin-top: 1rem;
+  padding: 8px;
+}
+
+textarea.messageInput {
+  margin-top: 1rem;
+  resize: vertical;
+  border: 1px solid gray;
+}
+
+.inputError {
+  text-align: center;
+  color: gray;
+  margin-top: 1rem;
 }
